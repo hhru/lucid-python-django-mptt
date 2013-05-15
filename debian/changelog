@@ -1,0 +1,5 @@
+python-django-mptt (0.5) unstable; urgency=low
+
+  * Debianize package
+
+ -- Anton Volozhanin <zzzombat@gmail.com>  Tue, 30 Apr 2013 12:20:18 +0400
