@@ -3,3 +3,7 @@
 build
 dist
 .tox
+debian/files
+*.debhelber
+*.debhelper.log
+*.substvars
