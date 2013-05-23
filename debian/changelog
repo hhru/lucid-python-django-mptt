@@ -1,4 +1,4 @@
-python-django-mptt (0.5) unstable; urgency=low
+python-django-mptt (0.5) cf-stable; urgency=low
 
   * Debianize package
 
