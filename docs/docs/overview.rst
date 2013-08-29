@@ -1,23 +1,10 @@
-django-mptt
-===========
+========
+Overview
+========
 
+.. contents::
+   :depth: 3
 
-lucid-python-django-mptt
-========================
-
-django-mptt debian package
-
-
-Utilities for implementing Modified Preorder Tree Traversal with your
-Django Models and working with trees of Model instances.
-
-.. image:: https://secure.travis-ci.org/django-mptt/django-mptt.png?branch=master
-
-Project home: http://github.com/django-mptt/django-mptt/
-
-Documentation: http://django-mptt.github.io/django-mptt/
-
-Discussion group: http://groups.google.com/group/django-mptt-dev
 
 What is Modified Preorder Tree Traversal?
 =========================================
@@ -29,32 +16,22 @@ The trade-off for this efficiency is that performing inserts and moving
 items around the tree is more involved, as there's some extra work
 required to keep the tree structure in a good state at all times.
 
-Here are a few articles about MPTT to whet your appetite and provide
+Here's a good article about MPTT to whet your appetite and provide
 details about how the technique itself works:
 
-    * `Trees in SQL`_
     * `Storing Hierarchical Data in a Database`_
-    * `Managing Hierarchical Data in MySQL`_
 
-.. _`Trees in SQL`: http://www.ibase.ru/devinfo/DBMSTrees/sqltrees.html
 .. _`Storing Hierarchical Data in a Database`: http://www.sitepoint.com/print/hierarchical-data-database
-.. _`Managing Hierarchical Data in MySQL`: http://mirror.neu.edu.cn/mysql/tech-resources/articles/hierarchical-data.html
 
 
 What is ``django-mptt``?
 ========================
 
-``django-mptt`` is a reusable Django app which aims to make it easy for you
+``django-mptt`` is a reusable Django app which aims to make it easy for you 
 to use MPTT with your own Django models.
 
 It takes care of the details of managing a database table as a tree
 structure and provides tools for working with trees of model instances.
-
-Requirements
-------------
-
-Python 2.6+ (with experimental support for python 3.2+)
-Django 1.4.2+
 
 Feature overview
 ----------------
@@ -77,7 +54,7 @@ Feature overview
 
 * A ``TreeManager`` manager is added to all registered models. This provides
   methods to:
-
+  
   * move nodes around a tree, or into a different tree
   * insert a node anywhere in a tree
   * rebuild the MPTT fields for the tree (useful when you do bulk updates
@@ -88,3 +65,10 @@ Feature overview
 * Utility functions for tree models.
 
 * Template tags and filters for rendering trees.
+
+* Translations for:
+
+  * Danish
+  * French
+  * German
+  * Polish

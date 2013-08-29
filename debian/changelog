@@ -1,3 +1,10 @@
+python-django-mptt (0.6) cf-stable; urgency=low
+
+  * update to 0.6 version
+
+ -- Andrey Knyazev <knevcher@gmail.com>  Mon, 12 Aug 2013 14:58:12 +0400
+
+
 python-django-mptt (0.5+hh1) cf-stable; urgency=low
 
   * hh fork

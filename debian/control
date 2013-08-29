@@ -14,11 +14,11 @@ Standards-Version: 3.8.4
 
 Package: python-django-mptt
 Architecture: all
-Depends: 
-  ${shlibs:Depends}, 
-  ${misc:Depends}, 
-  python, 
-  python-django (>= 1.2)
-Description: Utilities for implementing Modified Preorder Tree Traversal with your Django Models 
+Depends:
+  ${shlibs:Depends},
+  ${misc:Depends},
+  python,
+  python-django (>= 1.4.2)
+Description: Utilities for implementing Modified Preorder Tree Traversal with your Django Models
  and working with trees of Model instances.
  Github <https://github.com/django-mptt/django-mptt/>
