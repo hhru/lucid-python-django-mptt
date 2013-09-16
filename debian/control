@@ -18,7 +18,7 @@ Depends:
   ${shlibs:Depends},
   ${misc:Depends},
   python,
-  python-django (>= 1.4.2)
+  python-django (>= 1.4.1)
 Description: Utilities for implementing Modified Preorder Tree Traversal with your Django Models
  and working with trees of Model instances.
  Github <https://github.com/django-mptt/django-mptt/>

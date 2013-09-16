@@ -1,3 +1,10 @@
+python-django-mptt (0.6.1) cf-stable; urgency=low
+
+  * correct django version to 1.4.1
+
+ -- Alexander Morozov <numelion@gmail.com> Mon, 16 Sep 2013 15:37:04 +0400
+
+
 python-django-mptt (0.6) cf-stable; urgency=low
 
   * update to 0.6 version
